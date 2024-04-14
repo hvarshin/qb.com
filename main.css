@@ -1,0 +1,107 @@
+/* 
+    Document   : main
+    Created on : Jul 30, 2012, 2:54:56 PM
+    Author     : Anenth
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Root element */
+root { 
+    display: block;
+}
+
+/* Body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: lightgray;
+    
+}
+
+/* Header styling */
+h1 {
+    margin: 80px auto;
+    font-size: 200px;
+    padding: 20px;
+    width: 80%;
+    background: white;
+    text-align: center;
+    box-shadow: inset 0 0 20px grey, 2px 2px 5px black;
+    display: compact;
+    text-shadow: 2px 2px grey;
+    background: #A90329;
+    background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0%, #a90329), color-stop(44%, #8f0222), color-stop(100%, #6d0019));
+    background: -webkit-radial-gradient(center, ellipse cover, #a90329 0%, #8f0222 44%, #6d0019 100%);
+}
+
+/* Button styling */
+input[type=button] {
+    width: 50vw; /* 50% of viewport width */
+    height: 50vw; /* 50% of viewport width */
+    max-width: 400px; /* Maximum width of 400px */
+    max-height: 400px; /* Maximum height of 400px */
+    border-radius: 50%;
+    box-shadow: inset 0 0 46px grey, 2px 3px 6px 1px black;
+    display: block;
+    margin: 10vw auto; /* 10% of viewport width */
+    outline: 0;
+    border: 6px black solid;
+    color: black;
+    font-family: Georgia;
+    font-size: 10vw; /* 10% of viewport width */
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 2px 2px 3px grey;
+    background: transparent;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+input[type=button]:hover {
+    box-shadow: inset 0 0 20px grey, 1px 1px 6px 1px black;
+}
+
+/* Button active effect */
+input[type=button]:active {
+    text-shadow: 1px 1px 3px black;
+    box-shadow: inset 0 0 60px black, 1px 1px 6px 1px black;
+}
+
+/* Outer edge styling */
+#buzzer .outer-edge {
+    width: 50vw; /* 50% of viewport width */
+    height: 50vw; /* 50% of viewport width */
+    max-width: 400px; /* Maximum width of 400px */
+    max-height: 400px; /* Maximum height of 400px */
+    background: #800;
+    background: -webkit-gradient(linear, 0 top, 0 bottom, from(#F88), to(#800));
+    border-radius: 50%;
+}
+
+/* Highlight styling */
+#buzzer .highlight {
+    width: 50vw; /* 50% of viewport width */
+    height: 50vw; /* 50% of viewport width */
+    max-width: 400px; /* Maximum width of 400px */
+    max-height: 400px; /* Maximum height of 400px */
+    background: #D40009;
+    background: -webkit-gradient(linear, 0 top, 0 bottom, from(#FCC), color-stop(50%, #E71616), to(#D40009));
+    border-radius: 50%;
+}
+
+/* Fill styling */
+#buzzer .fill {
+    width: 50vw; /* 50% of viewport width */
+    height: 50vw; /* 50% of viewport width */
+    max-width: 400px; /* Maximum width of 400px */
+    max-height: 400px; /* Maximum height of 400px */
+    background: #E71616;
+    background: -webkit-gradient(linear, 0 top, 0 bottom, from(#FE878A), to(#B80304), color-stop(50%, #E71616), color-stop(80%, maroon), color-stop(85%, maroon));
+    border-radius: 50%;
+}
+
+
+
+    
